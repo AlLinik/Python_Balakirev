@@ -11,3 +11,4 @@ print(floor(500 // (int(input()) * 0.9)))
 
 from math import trunc
 print(trunc(500 // (int(input()) * 0.9)))
+
