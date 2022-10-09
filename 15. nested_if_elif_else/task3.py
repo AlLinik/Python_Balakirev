@@ -37,3 +37,4 @@ print(1 + (60 <= weight) + (64 <= weight) + (69 <= weight))
 
 w = float(input())
 print((3 * (w > 69) or 2 * (w > 64) or (w > 60) or 0) + 1)
+
