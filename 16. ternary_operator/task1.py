@@ -16,3 +16,4 @@ print(d := (a if (a := float(input())) > (b := float(input())) else b))
 print((d := max([float(input()) for i in range(2)])))
 
 (lambda a, b: print(a if a > b else b))(float(input()), float(input()))
+
