@@ -11,4 +11,3 @@ print(f'{"не " * (1 if int(input()) % 3 > 0 else 0)}кратно 3')
 print(['кратно 3', 'не кратно 3'][int(input()) % 3 > 0])
 
 print(('не кратно 3', 'кратно 3')[not int(input()) % 3])
-
