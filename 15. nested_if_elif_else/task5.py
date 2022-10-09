@@ -37,4 +37,3 @@ if (num := int(input())) == 2:
     print(28)
 else:
     print(30 + (num // 8 + num) % 2)
-
