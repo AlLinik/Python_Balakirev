@@ -43,4 +43,3 @@ week = {1: 'понедельник',
        7: 'воскресенье'}
 day = int(input())
 print(week[day])
-
