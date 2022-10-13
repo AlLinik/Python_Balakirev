@@ -21,6 +21,7 @@ else:
 x = float(input())
 print(1 if x <= 60 else 2 if x <= 64 else 3 if x <= 69 else 4)
 
+
 l = [0, 60, 64, 69]
 a = float(input())
 l.append(a)
