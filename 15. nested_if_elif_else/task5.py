@@ -33,6 +33,7 @@ print([0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31][int(input())])
 
 print(__import__("calendar").monthrange(2022, int(int(input())))[1])
 
+
 if (num := int(input())) == 2:
     print(28)
 else:
