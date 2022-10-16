@@ -5,5 +5,6 @@ a, b, c = map(int, input().split())
 На экран вывести True, если треугольник формируется и False - в противном случае.
 Задача делается без использования условного оператора."""
 
+
 a, b, c = map(int, input().split())
 print(a + b > c and a + c > b and b + c > a)
